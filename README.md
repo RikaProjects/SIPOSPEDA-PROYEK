@@ -61,3 +61,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 "# Sukahati - Daging Ayam" 
 "# SIPOSPEDA" 
 "# SIPOSPEDA - SISTEM INFORMASI PENGELOLAAN STOK DAN PENJUALAN DAGING AYAM" 
+"# SIPOSPEDA-PROYEK" 
