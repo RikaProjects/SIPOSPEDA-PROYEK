@@ -1,0 +1,113 @@
+DEBUG - 2025-07-08 11:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 11:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 11:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 11:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 11:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-08 12:41:45 --> mysqli_sql_exception: Unknown column 'nama_lengkap' in 'field list' in C:\xampp\htdocs\Sukahati-Daging_Ayam\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Sukahati-Daging_Ayam\app\Controllers\Mitra.php(60): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\CodeIgniter.php(933): App\Controllers\Mitra->simpan()
+#9 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra))
+#10 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Sukahati-Daging_Ayam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Sukahati-Daging_Ayam\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-07-08 12:41:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nama_lengkap' in 'field list'
+[Method: POST, Route: mitra/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pendaftaran_mitra` (`user_id`, `nama_lengkap`, `no_hp`, `nama_brand`, `jenis_usaha`, `kepemilikan_usaha`, `kebutuhan_per_order_kg`, `frekuensi_beli_per_bulan`, `provinsi`, `kota`, `kecamatan`, `dokumen_ktp`, `dokumen_npwp`, `status_verifikasi`, `tanggal_daftar`) VALUES (:user_id:, :nama_lengkap:, :no_hp:, :nama_brand:, :jenis_usaha:, :kepemilikan_usaha:, :kebutuhan_per_order_kg:, :frekuensi_beli_per_bulan:, :provinsi:, :kota:, :kecamatan:, :dokumen_ktp:, :dokumen_npwp:, :status_verifikasi:, :tanggal_daftar:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Mitra.php(60): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mitra->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-08 12:41:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nama_lengkap' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pendaftaran_mitra` (`user_id`, `nama_lengkap`, `no_hp`, `nama_brand`, `jenis_usaha`, `kepemilikan_usaha`, `kebutuhan_per_order_kg`, `frekuensi_beli_per_bulan`, `provinsi`, `kota`, `kecamatan`, `dokumen_ktp`, `dokumen_npwp`, `status_verifikasi`, `tanggal_daftar`) VALUES (NULL, \'Deliya Sari Nurjannah\', \'083156398\', \'yamayam\', \'restoran\', \'pribadi\', \'100\', \'30\', \'DKI Jakarta\', \'Jakarta Selatan\', \'Pasar Minggu\', \'1751978505_3a3d95a2342958c5f39f.png\', \'1751978505_7671e17cae42bbb992ac.png\', \'menunggu\', \'2025-07-08\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pendaftaran_mitra` (`user_id`, `nama_lengkap`, `no_hp`, `nama_brand`, `jenis_usaha`, `kepemilikan_usaha`, `kebutuhan_per_order_kg`, `frekuensi_beli_per_bulan`, `provinsi`, `kota`, `kecamatan`, `dokumen_ktp`, `dokumen_npwp`, `status_verifikasi`, `tanggal_daftar`) VALUES (NULL, \'Deliya Sari Nurjannah\', \'083156398\', \'yamayam\', \'restoran\', \'pribadi\', \'100\', \'30\', \'DKI Jakarta\', \'Jakarta Selatan\', \'Pasar Minggu\', \'1751978505_3a3d95a2342958c5f39f.png\', \'1751978505_7671e17cae42bbb992ac.png\', \'menunggu\', \'2025-07-08\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pendaftaran_mitra` (`user_id`, `nama_lengkap`, `no_hp`, `nama_brand`, `jenis_usaha`, `kepemilikan_usaha`, `kebutuhan_per_order_kg`, `frekuensi_beli_per_bulan`, `provinsi`, `kota`, `kecamatan`, `dokumen_ktp`, `dokumen_npwp`, `status_verifikasi`, `tanggal_daftar`) VALUES (:user_id:, :nama_lengkap:, :no_hp:, :nama_brand:, :jenis_usaha:, :kepemilikan_usaha:, :kebutuhan_per_order_kg:, :frekuensi_beli_per_bulan:, :provinsi:, :kota:, :kecamatan:, :dokumen_ktp:, :dokumen_npwp:, :status_verifikasi:, :tanggal_daftar:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Mitra.php(60): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mitra->simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-08 12:41:45 --> [Caused by] mysqli_sql_exception: Unknown column 'nama_lengkap' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pendaftaran_mitra` (`user_id`, `nama_lengkap`, `no_hp`, `nama_brand`, `jenis_usaha`, `kepemilikan_usaha`, `kebutuhan_per_order_kg`, `frekuensi_beli_per_bulan`, `provinsi`, `kota`, `kecamatan`, `dokumen_ktp`, `dokumen_npwp`, `status_verifikasi`, `tanggal_daftar`) VALUES (NULL, \'Deliya Sari Nurjannah\', \'083156398\', \'yamayam\', \'restoran\', \'pribadi\', \'100\', \'30\', \'DKI Jakarta\', \'Jakarta Selatan\', \'Pasar Minggu\', \'1751978505_3a3d95a2342958c5f39f.png\', \'1751978505_7671e17cae42bbb992ac.png\', \'menunggu\', \'2025-07-08\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pendaftaran_mitra` (`user_id`, `nama_lengkap`, `no_hp`, `nama_brand`, `jenis_usaha`, `kepemilikan_usaha`, `kebutuhan_per_order_kg`, `frekuensi_beli_per_bulan`, `provinsi`, `kota`, `kecamatan`, `dokumen_ktp`, `dokumen_npwp`, `status_verifikasi`, `tanggal_daftar`) VALUES (NULL, \'Deliya Sari Nurjannah\', \'083156398\', \'yamayam\', \'restoran\', \'pribadi\', \'100\', \'30\', \'DKI Jakarta\', \'Jakarta Selatan\', \'Pasar Minggu\', \'1751978505_3a3d95a2342958c5f39f.png\', \'1751978505_7671e17cae42bbb992ac.png\', \'menunggu\', \'2025-07-08\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pendaftaran_mitra` (`user_id`, `nama_lengkap`, `no_hp`, `nama_brand`, `jenis_usaha`, `kepemilikan_usaha`, `kebutuhan_per_order_kg`, `frekuensi_beli_per_bulan`, `provinsi`, `kota`, `kecamatan`, `dokumen_ktp`, `dokumen_npwp`, `status_verifikasi`, `tanggal_daftar`) VALUES (NULL, \'Deliya Sari Nurjannah\', \'083156398\', \'yamayam\', \'restoran\', \'pribadi\', \'100\', \'30\', \'DKI Jakarta\', \'Jakarta Selatan\', \'Pasar Minggu\', \'1751978505_3a3d95a2342958c5f39f.png\', \'1751978505_7671e17cae42bbb992ac.png\', \'menunggu\', \'2025-07-08\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pendaftaran_mitra` (`user_id`, `nama_lengkap`, `no_hp`, `nama_brand`, `jenis_usaha`, `kepemilikan_usaha`, `kebutuhan_per_order_kg`, `frekuensi_beli_per_bulan`, `provinsi`, `kota`, `kecamatan`, `dokumen_ktp`, `dokumen_npwp`, `status_verifikasi`, `tanggal_daftar`) VALUES (:user_id:, :nama_lengkap:, :no_hp:, :nama_brand:, :jenis_usaha:, :kepemilikan_usaha:, :kebutuhan_per_order_kg:, :frekuensi_beli_per_bulan:, :provinsi:, :kota:, :kecamatan:, :dokumen_ktp:, :dokumen_npwp:, :status_verifikasi:, :tanggal_daftar:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Mitra.php(60): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mitra->simpan()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitra))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-08 12:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 12:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
