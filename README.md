@@ -39,17 +39,22 @@ SIPOSPEDA adalah sistem informasi berbasis web yang dirancang untuk membantu pel
 ```
 
 👤 Role Pengguna
-Admin Gudang: Mengelola stok masuk dan keluar
 
-Admin Produksi: Input hasil produksi
+- Admin Utama : Manajemen keseluruhan
 
-Admin Sales: Input transaksi penjualan
+- Admin Gudang: Mengelola kategori dan produk
 
-Direktur/Admin Utama: Melihat laporan dan manajemen keseluruhan
+- Admin Produksi: Input hasil produksi
 
-Mitra : Melihat Produk dan bertransaksi
+- Admin Sales: mengelola mitra dan transaksi penjualan
 
-Calon Mitra : mendaftarkan diri menjadi mitra
+- Admin Factory : Menginput Ayam Hidup
+
+- Direktur: Melihat laporan
+
+- Mitra : Melihat Produk dan bertransaksi
+
+- Calon Mitra : mendaftarkan diri menjadi mitra
 
 🧠 Tujuan Proyek
 Membantu digitalisasi proses pencatatan stok dan penjualan daging ayam pada usaha kecil hingga menengah, mengurangi kesalahan manusia dan kehilangan data, serta meningkatkan efisiensi dan akurasi laporan.
