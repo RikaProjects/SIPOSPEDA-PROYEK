@@ -29,7 +29,7 @@ SIPOSPEDA adalah sistem informasi berbasis web yang dirancang untuk membantu pel
    ```bash
    cd /c/xampp/htdocs/sipospeda
 
-3. Import database dari file database/sukahati.sql ke phpMyAdmin
+3. Import database dari file database/ayamproject.sql ke phpMyAdmin
 4. Ubah konfigurasi database di:
     ```bash
     app/Config/Database.php
