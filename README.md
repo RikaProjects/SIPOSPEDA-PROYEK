@@ -27,7 +27,7 @@ SIPOSPEDA adalah sistem informasi berbasis web yang dirancang untuk membantu pel
 
 2. Jalankan di folder XAMPP htdocs
    ```bash
-   cd /c/xampp/htdocs/Sukahati-Daging_Ayam
+   cd /c/xampp/htdocs/sipospeda
 
 3. Import database dari file database/sukahati.sql ke phpMyAdmin
 4. Ubah konfigurasi database di:
@@ -35,7 +35,7 @@ SIPOSPEDA adalah sistem informasi berbasis web yang dirancang untuk membantu pel
     app/Config/Database.php
 5. Jalankan di browser
  ```bash
-   http://localhost/Sukahati-Daging_Ayam/public
+   http://localhost/sipospeda/public
 ```
 
 👤 Role Pengguna
