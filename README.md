@@ -57,6 +57,4 @@ SIPOSPEDA adalah sistem informasi berbasis web yang dirancang untuk membantu pel
 - Calon Mitra : mendaftarkan diri menjadi mitra
 
 🧠 Tujuan Proyek
-Membantu digitalisasi proses pencatatan stok dan penjualan daging ayam pada usaha kecil hingga menengah, mengurangi kesalahan manusia dan kehilangan data, serta meningkatkan efisiensi dan akurasi laporan.
-
-   
+Membantu digitalisasi proses pencatatan stok dan penjualan daging ayam pada usaha CV Sukahati Pratama, mengurangi kesalahan manusia dan kehilangan data, serta meningkatkan efisiensi dan akurasi laporan.
